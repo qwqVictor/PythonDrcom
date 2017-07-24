@@ -1,0 +1,4 @@
+rspx=`echo $0`
+rsp=${rspx%%'/chameleon_installer'*}
+clear
+sh $rsp/drcom.sh

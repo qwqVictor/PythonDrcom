@@ -1,0 +1,4 @@
+CFBundleName = "PythonDrcom";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "PythonDrcom version 1.0 Copyright 2017 凌风仙鸡";
+NSHumanReadableCopyright = "Copyright 2017 凌风仙鸡";

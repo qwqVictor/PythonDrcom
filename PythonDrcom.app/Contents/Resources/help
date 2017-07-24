@@ -1,0 +1,35 @@
+PythonDrcom 帮助
+
+FAQ:
+
+Q: 我怎么知道我的电脑能不能运行它呢？
+A: 你可以检查 Python 环境，如果回显信息中有形如 Python 2.7.10 的内容，则可以运行。
+　　如果出现 -sh: python: command not found，则需要安装 Python。
+
+Q: IP 地址是选择固定还是 DHCP？
+A: 如果你的电脑接入了你家里的无线路由器，那么请选择固定并输入路由器连接到校园网的 IP 地址。
+　　如果你的电脑直接接入校园网的网线或连接学校的无线局域网，则可以选择 DHCP。
+
+Q: 这个程序不能用于我的学校怎么办？
+A: 程序设计之初并未考虑支持所有学校，如果需要，请手动修改配置或者查找网络上的朋友做好的版本。
+
+Q: 怎么修改学校的环境配置？
+A: 首先，学校环境配置的文件在 PythonDrcom.app/Contents/Resources/drcom.conf 里面。你可以
+　　Wireshark 抓原版客户端的包，然后保存为 pcapang 格式后去 http://drcoms.github.io/drcom-generic/
+　　生成配置。然后下载 drcom.conf 文件后将 host_ip、username、password 字段删除掉，再替换掉本 app 资源
+　　中的 drcom.conf。
+
+Q: 我可以基于这个程序二次开发吗？
+A: 可以，请遵守 GPL-3.0 协议。
+
+Q: 这个程序不会被发现吧？
+A: 别怂……
+
+本程序使用到的组件有:
+* drcom_generic : https://github.com/drcoms/drcom-generic  License: AGPL-3.0
+* Python
+* bash
+
+本 App 的启动壳程序修改自 Clover EFI Tools。
+
+离开帮助，请按下 Control-X，若未能直接退出请再输入 N。
