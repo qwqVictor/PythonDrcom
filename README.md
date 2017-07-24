@@ -15,4 +15,3 @@ PythonDrcom 是一个 Mac 版 Drcom 客户端。
 2. Python 2.7
 3. bash
 4. Clover EFI Tools (启动壳程序修改自此)
-5. 
